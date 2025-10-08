@@ -23,7 +23,6 @@ public class ProdutoServiceTest {
     @Mock
     private ProdutoRepository produtoRepository;
 
-//    @Autowired
     @InjectMocks
     private ProdutoService produtoService;
     private Produto produto1;

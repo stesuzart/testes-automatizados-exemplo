@@ -64,10 +64,12 @@ class ProdutoControllerTest {
     @Test
     public void listarProdutosHttpTest() throws Exception {
         when(produtoService.listarProdutos()).thenReturn(produtoLista);
+
         mockMvc.perform(MockMvcRequestBuilders.get("/api/v1/produtos").
                         contentType(MediaType.APPLICATION_JSON).
                         content(asJsonString(produto))).
                 andDo(MockMvcResultHandlers.print());
+
         verify(produtoService).listarProdutos();
         verify(produtoService, times(1)).listarProdutos();
     }

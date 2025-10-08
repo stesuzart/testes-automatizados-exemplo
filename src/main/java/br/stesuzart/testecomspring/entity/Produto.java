@@ -30,11 +30,9 @@ public class Produto {
     public Long getUnidades() {
         return unidades;
     }
-
     public String getDescricao() {
         return descricao;
     }
-
     public String getNome() {
         return nome;
     }
