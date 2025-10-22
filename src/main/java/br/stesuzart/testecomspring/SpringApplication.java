@@ -1,14 +1,13 @@
 package br.stesuzart.testecomspring;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TesteComSpringApplication {
+public class SpringApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(TesteComSpringApplication.class, args);
+        org.springframework.boot.SpringApplication.run(SpringApplication.class, args);
     }
 
 }

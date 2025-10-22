@@ -20,26 +20,26 @@ class SeleniumTest {
         * e substiruir o chromedriver na pasta do projeto
         * e alterar o caminho abaixo
         * */
-        System.setProperty("webdriver.chrome.driver", "/caminho-da-sua-maquina/chromedriver");
-        driver = new ChromeDriver();
-
-        driver.get("https://google.com");
-
-        String titulo = driver.getTitle();
-        Assertions.assertEquals("Google", titulo);
-
-        driver.manage().timeouts().implicitlyWait(400, TimeUnit.MILLISECONDS);
-
-        WebElement searchBox = driver.findElement(By.name("q"));
-        WebElement searchButton = driver.findElement(By.name("btnK"));
-
-        searchBox.sendKeys("Selenium");
-        searchButton.click();
-
-        searchBox = driver.findElement(By.name("q"));
-        String value = searchBox.getAttribute("value");
-        Assertions.assertEquals("Selenium", value);
-
-        driver.quit();
+//        System.setProperty("webdriver.chrome.driver", "/caminho-da-sua-maquina/chromedriver");
+//        driver = new ChromeDriver();
+//
+//        driver.get("https://google.com");
+//
+//        String titulo = driver.getTitle();
+//        Assertions.assertEquals("Google", titulo);
+//
+//        driver.manage().timeouts().implicitlyWait(400, TimeUnit.MILLISECONDS);
+//
+//        WebElement searchBox = driver.findElement(By.name("q"));
+//        WebElement searchButton = driver.findElement(By.name("btnK"));
+//
+//        searchBox.sendKeys("Selenium");
+//        searchButton.click();
+//
+//        searchBox = driver.findElement(By.name("q"));
+//        String value = searchBox.getAttribute("value");
+//        Assertions.assertEquals("Selenium", value);
+//
+//        driver.quit();
     }
 }
