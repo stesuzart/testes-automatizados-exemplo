@@ -1,6 +1,6 @@
 package br.stesuzart.testecomspring.controller;
 
-import br.stesuzart.testecomspring.entity.Produto;
+import br.stesuzart.testecomspring.model.entity.Produto;
 import br.stesuzart.testecomspring.service.ProdutoService;
 import java.util.List;
 import org.springframework.http.HttpStatus;

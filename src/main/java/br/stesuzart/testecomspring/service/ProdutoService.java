@@ -1,7 +1,7 @@
 package br.stesuzart.testecomspring.service;
 
-import br.stesuzart.testecomspring.entity.Produto;
-import br.stesuzart.testecomspring.repository.ProdutoRepository;
+import br.stesuzart.testecomspring.model.entity.Produto;
+import br.stesuzart.testecomspring.model.repository.ProdutoRepository;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.stereotype.Service;

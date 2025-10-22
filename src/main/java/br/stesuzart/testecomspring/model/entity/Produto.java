@@ -1,4 +1,4 @@
-package br.stesuzart.testecomspring.entity;
+package br.stesuzart.testecomspring.model.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

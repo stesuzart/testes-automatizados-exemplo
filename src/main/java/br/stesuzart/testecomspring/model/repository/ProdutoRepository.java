@@ -1,6 +1,6 @@
-package br.stesuzart.testecomspring.repository;
+package br.stesuzart.testecomspring.model.repository;
 
-import br.stesuzart.testecomspring.entity.Produto;
+import br.stesuzart.testecomspring.model.entity.Produto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
